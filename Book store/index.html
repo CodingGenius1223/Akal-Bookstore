@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Akal Bookstore</title>
+</head>
+<body>
+    <header class="container-fluid text-white p-4">
+        <div class="row align-items-center g-3">
+            <div class="col-md-3">
+                <div class="d-flex align-items-center gap-2">
+                    <img src="./assests/icon1.png" width="70" alt="">
+                    <h2 class="mb-0">Akal Bookstore</h2>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="dropdown">
+                    <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        All Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Kids Section</a></li>
+                        <li><a class="dropdown-item" href="#">Poetry Books</a></li>
+                        <li><a class="dropdown-item" href="#">Language Books</a></li>
+                        <li><a class="dropdown-item" href="#">English Books</a></li>
+                        <li><a class="dropdown-item" href="#">Tamil Books</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <input type="search" class="form-control" placeholder="Write the title of the book or the author here">
+            </div>
+            <div class="col-md-2">
+                <div class="d-flex justify-content-end gap-3">
+                    <img src="./assests/wishlist.img.png" width="30" alt="">
+                    <img src="./assests/cart.image.png" width="30" alt="">
+                    <img src="./assests/profile.image.png" width="30" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="d-flex flex-wrap justify-content-center gap-5">
+                <a href="#" class="text-danger text-decoration-none fw-bold">Home</a>
+                <a href="#" class="text-white text-decoration-none fw-bold">Shop</a>
+                <a href="#" class="text-white text-decoration-none fw-bold">Blog</a>
+                <a href="#" class="text-white text-decoration-none fw-bold">About Us</a>
+                <a href="#" class="text-white text-decoration-none fw-bold">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    <section class="hero-section">
+        <img src="./assests/bg-iamge.png" class="hero-image" alt="">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-tag">📚 Your Favourite Online Bookstore</span>
+            <h1>Buy and Sell Your Books at the Best Prices</h1>
+            <p>
+                Discover amazing books, explore new stories and find your
+                next favourite read.
+            </p>
+            <button type="button" class="btn btn-danger hero-btn">
+                Explore Books
+            </button>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class="text-white text-center mb-5">Popular Books</h2>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./assests/book2.image.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">The Alchemist</h5>
+                        <p class="card-text">Paulo Coelho</p>
+                        <h4>₹499</h4>
+                        <button class="btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./assests/book3.image.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Think Grow Rich</h5>
+                        <p class="card-text">Paulo Coelho</p>
+                        <h4>₹499</h4>
+                        <button class="btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./assests/book4.image.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">7 Habits</h5>
+                        <p class="card-text">Paulo Coelho</p>
+                        <h4>₹499</h4>
+                        <button class="btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./assests/book5,img.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">The Little Prince</h5>
+                        <p class="card-text">Paulo Coelho</p>
+                        <h4>₹499</h4>
+                        <button class="btn btn-danger">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="text-center">
+            <h2 class="text-white mb-4">Browse Categories</h2>
+            <button class="btn btn-outline-danger rounded-pill m-2">
+                📚 Kids
+            </button>
+            <button class="btn btn-outline-light rounded-pill m-2">
+                தமிழ் Books
+            </button>
+            <button class="btn btn-outline-light rounded-pill m-2">
+                English Books
+            </button>
+            <button class="btn btn-outline-light rounded-pill m-2">
+                ✍ Poetry
+            </button>
+            <button class="btn btn-outline-light rounded-pill m-2">
+                📖 Novels
+            </button>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./assests/tamil-image 1.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Ponniyin Selvan</h5>
+                        <p class="card-text">Kalki Krishnamurthy</p>
+                        <h4>₹200</h4>
+                        <button class="btn btn-danger">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./assests/english.image 1.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">You Can</h5>
+                        <p class="card-text">Raj Coelho</p>
+                        <h4>₹599</h4>
+                        <button class="btn btn-danger">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./assests/poetry.image 1.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Petals of Healing</h5>
+                        <p class="card-text">Ananya Sharma</p>
+                        <h4>₹349</h4>
+                        <button class="btn btn-danger">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <img src="./assests/novels.image 1.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">The Case-Book</h5>
+                        <p class="card-text">Arjun Doyale</p>
+                        <h4>₹499</h4>
+                        <button class="btn btn-danger">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class="text-center fw-bold mb-5 text-white">
+            📚 NEW ARRIVALS
+        </h2>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow">
+                    <img src="./assests/new arrivals img 1.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            The Silent Patient
+                        </h5>
+                        <p class="card-text text-muted">
+                            Alex Michaelides
+                        </p>
+                        <h6 class="fw-bold">
+                            ₹499
+                        </h6>
+                        <button class="btn btn-danger mt-2">
+                            View Book
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow">
+                    <img src="./assests/new arrivals img 2.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            The Psychology of Money
+                        </h5>
+                        <p class="card-text text-muted">
+                            Morgan Housel
+                        </p>
+                        <h6 class="fw-bold">
+                            ₹399
+                        </h6>
+                        <button class="btn btn-danger mt-2">
+                            View Book
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow">
+                    <img src="./assests/new arrivals img 3.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            Atomic Habits
+                        </h5>
+                        <p class="card-text text-muted">
+                            James Clear
+                        </p>
+                        <h6 class="fw-bold">
+                            ₹499
+                        </h6>
+                        <button class="btn btn-danger mt-2">
+                            View Book
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 shadow">
+                    <img src="./assests/new arrivals img 4.jpg" class="card-img-top mt-4"
+                        style="height:220px; object-fit:contain;" alt="">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            The Alchemist
+                        </h5>
+                        <p class="card-text text-muted">
+                            Paulo Coelho
+                        </p>
+                        <h6 class="fw-bold">
+                            ₹299
+                        </h6>
+                        <button class="btn btn-danger mt-2">
+                            View Book
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="section-title">
+            <p>HANDPICKED FOR YOU</p>
+            <h2>Featured Books</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="featured-book">
+                    <div class="featured-number">
+                        01
+                    </div>
+                    <div>
+                        <h4>Discover New Worlds</h4>
+                        <p>
+                            Explore a collection of inspiring books and
+                            stories selected for every type of reader.
+                        </p>
+                        <button class="btn btn-outline-danger">
+                            Explore Collection
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="featured-book">
+                    <div class="featured-number">
+                        02
+                    </div>
+                    <div>
+                        <h4>Best Selling Books</h4>
+                        <p>
+                            Find the most popular books loved by readers
+                            around the world.
+                        </p>
+                        <button class="btn btn-outline-danger">
+                            View Best Sellers
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="featured-book">
+                    <div class="featured-number">
+                        03
+                    </div>
+                    <div>
+                        <h4>Affordable Prices</h4>
+                        <p>
+                            Enjoy your favourite books at the best prices
+                            and discover something new.
+                        </p>
+                        <button class="btn btn-outline-danger">
+                            Start Shopping
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <h2 class="text-center fw-bold mb-5 text-white">
+            Why Choose Us?
+        </h2>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="fs-1">
+                    📚
+                </div>
+                <h5 class="fw-bold mt-3 text-white">
+                    Huge Collection
+                </h5>
+                <p class="text-white">
+                    Thousands of books to explore
+                </p>
+
+            </div>
+            <div class="col-md-3">
+                <div class="fs-1">
+                    🚚
+                </div>
+                <h5 class="fw-bold mt-3 text-white">
+                    Fast Delivery
+                </h5>
+                <p class="text-white">
+                    Quick and reliable delivery
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="fs-1">
+                    🔒
+                </div>
+                <h5 class="fw-bold mt-3 text-white">
+                    Secure Payment
+                </h5>
+                <p class="text-white">
+                    100% safe and secure payment
+                </p>
+
+            </div>
+            <div class="col-md-3">
+                <div class="fs-1">
+                    💰
+                </div>
+                <h5 class="fw-bold mt-3 text-white">
+                    Best Price
+                </h5>
+                <p class="text-white">
+                    Affordable prices for everyone
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="bg-danger text-center p-5 shadow w-100">
+            <h2 class="fw-bold text-white">
+                🎉 SPECIAL OFFER
+            </h2>
+            <p class="fs-4 mt-3 text-white">
+                Get <strong>20% OFF</strong> on your first order
+            </p>
+            <button class="btn btn-dark px-4 mt-2">
+                Shop Now
+            </button>
+        </div>
+    </section>
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div>
+                    <span>STAY UPDATED</span>
+                    <h2>
+                        Get Updates on New Books
+                    </h2>
+                    <p>
+                        Subscribe to receive updates about new arrivals,
+                        special offers and popular books.
+                    </p>
+                </div>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button class="btn btn-danger">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h3>
+                        Akal Bookstore
+                    </h3>
+                    <p>
+                        Discover books, explore stories and find your next
+                        favourite read with us.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5>
+                        Quick Links
+                    </h5>
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Us</a>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5>
+                        Categories
+                    </h5>
+                    <a href="#">English Books</a>
+                    <a href="#">Tamil Books</a>
+                    <a href="#">Kids Books</a>
+                    <a href="#">Novels</a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5>
+                        Contact Us
+                    </h5>
+                    <p>
+                        📧 akalbookstore@gmail.com
+                    </p>
+                    <p>
+                        📍 Tamil Nadu, India
+                    </p>
+                    <p>
+                        📞 +91 98765 43210
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>
+                    © 2026 Akal Bookstore. All Rights Reserved.
+                </p>
+                <p>
+                    Designed & Developed with ❤️
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
